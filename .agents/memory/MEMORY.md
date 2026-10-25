@@ -1,0 +1,1 @@
+- [Dependency registry block](dependency-registry-block.md) — the imported framework pin is blocked by the package firewall; check for a safe update before reinstalling.
