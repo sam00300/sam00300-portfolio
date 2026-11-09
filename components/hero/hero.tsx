@@ -120,7 +120,7 @@ export function Hero(): ReactNode {
             {/* Name */}
             <div>
               <h1 className="font-serif text-4xl font-semibold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-                Vivekananda Singh
+                Samir Pandey
               </h1>
               {/* Designation below Name with dynamic typewriter animation */}
               <DesignationTypewriter />
@@ -128,7 +128,7 @@ export function Hero(): ReactNode {
 
             {/* Two-line intro below designation */}
             <p className="text-base leading-relaxed text-foreground/75 sm:text-lg">
-              Data Analyst and Project Coordinator at Sun Pharma, working on AI
+              Digitalization Engineer at Bosch Rexroth, working on AI
               adoption, process automation, dashboards, and cross-functional
               projects. I enjoy turning business needs into simple, practical
               solutions using Power BI, Excel, Power Automate, and Copilot
