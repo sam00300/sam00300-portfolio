@@ -1,6 +1,6 @@
-# Vivekk Portfolio
+# Samir Portfolio
 
-Personal portfolio website for Vivekananda Singh.
+Personal portfolio website for Samir Pandey.
 
 ## Run locally
 
