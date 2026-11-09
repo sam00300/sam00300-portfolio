@@ -124,37 +124,10 @@ export function AboutSection(): ReactNode {
                       </div>
                     </div>
                     <span className="shrink-0 rounded-full border border-blue-500/25 bg-blue-500/10 px-2.5 py-0.5 text-[11px] font-semibold text-blue-600 dark:text-blue-400 self-start sm:self-auto">
-                      CGPA: 7.79
+                      CGPA: 7.01
                     </span>
                   </div>
 
-                  {/* Higher Secondary */}
-                  <div className="group flex flex-col sm:flex-row sm:items-center justify-between gap-1.5 rounded-2xl border border-foreground/8 bg-foreground/2 p-3 sm:px-4 sm:py-3 transition-colors hover:border-foreground/20 hover:bg-foreground/4">
-                    <div>
-                      <div className="text-xs sm:text-sm font-bold text-foreground">
-                        Higher Secondary
-                      </div>
-                      <div className="text-[11px] sm:text-xs text-foreground/60">
-                        VVS Independent PU College, Bellary, Karnataka &bull; 2020 – 2021
-                      </div>
-                    </div>
-                    <span className="shrink-0 rounded-full border border-foreground/10 bg-foreground/4 px-2.5 py-0.5 text-[11px] font-semibold text-foreground/75 self-start sm:self-auto">
-                      Class XII: 80%
-                    </span>
-                  </div>
-
-                  {/* Primary and High School */}
-                  <div className="group flex flex-col sm:flex-row sm:items-center justify-between gap-1.5 rounded-2xl border border-foreground/8 bg-foreground/2 p-3 sm:px-4 sm:py-3 transition-colors hover:border-foreground/20 hover:bg-foreground/4">
-                    <div>
-                      <div className="text-xs sm:text-sm font-bold text-foreground">
-                        Primary and High School
-                      </div>
-                      <div className="text-[11px] sm:text-xs text-foreground/60">
-                        Jindal Adarsh Vidyalaya, Bellary, Karnataka &bull; 2018 – 2019
-                      </div>
-                    </div>
-                    <span className="shrink-0 rounded-full border border-foreground/10 bg-foreground/4 px-2.5 py-0.5 text-[11px] font-semibold text-foreground/75 self-start sm:self-auto">
-                      Class X: 85%
                     </span>
                   </div>
                 </div>
