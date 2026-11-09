@@ -114,7 +114,7 @@ export function AboutSection(): ReactNode {
                 </h4>
                 <div className="flex flex-col gap-2.5">
                   {/* B.Tech */}
-                  <div className="group flex flex-col sm:flex-row sm:items-center justify-between gap-1.5 rounded-2xl border border-foreground/8 bg-foreground/2 p-3 sm:px-4 sm:py-3 transition-colors hover:border-foreground/20 hover:bg-foreground/4">
+                  <div className="group flex flex-col sm:flex-row sm:items-center justify-between gap-1.5 rounded-2xl border border-foreground/10 bg-foreground/5 p-4 transition-all duration-300 hover:bg-foreground/10">
                     <div>
                       <div className="text-xs sm:text-sm font-bold text-foreground">
                         B.Tech Computer Science with Big Data Analytics
@@ -126,9 +126,7 @@ export function AboutSection(): ReactNode {
                     <span className="shrink-0 rounded-full border border-blue-500/25 bg-blue-500/10 px-2.5 py-0.5 text-[11px] font-semibold text-blue-600 dark:text-blue-400 self-start sm:self-auto">
                       CGPA: 7.01
                     </span>
-                  </div>
-
-                    
+                  </div>     
                   </div>
           </FadeIn>
 
