@@ -128,11 +128,8 @@ export function AboutSection(): ReactNode {
                     </span>
                   </div>
 
-                    </span>
+                    
                   </div>
-                </div>
-              </div>
-            </div>
           </FadeIn>
 
           {/* Right Side: What I Bring to the Table & Horizontal Tiles */}
