@@ -37,15 +37,45 @@ export function ExperienceSection(): ReactNode {
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
   const experiences: ExperienceItem[] = [
+    
+    {
+      id: "Bosch-Rexroth",
+      company: "Bosch Rexroth",
+      logo: "/bindu ies.jpeg",
+      role: "Digitalization Engineer",
+      stage: "Currently Working",
+      duration: "August 2026 – Present",
+      location: "Ahmedabad",
+      badge: "August 2026 – Present",
+      summary:
+        "Developing and deploying real-time data visualization dashboards and automated reporting solutions to drive operational efficiency across the manufacturing plant.",
+      focus:
+        "End-to-end automation, business intelligence dashboard develop, and application engineering for production workflow.",
+      responsibilities: [
+        "Write optimized SQL queries and manage ETL workflows to extract, clean, and pipe production data into centralized data models.",
+      ],
+      achievements: [
+        "Enhanced plant data transparency by creating unified cross-department tracking tools for live project reporting.",
+      ],
+      skills: [
+        "Power BI & Dax",
+        "Power Apps & Power Automate",
+        "SQL & Database Management",
+        "Advanced Excel & Data Cleaning",
+        "Process Automation",
+      ],
+      impactMetric: "100%",
+      impactLabel: "Real-time visibility achieved for target reporting workflows",
+    },
     {
       id: "sun-pharma",
       company: "Sun Pharma",
       logo: "/SunPharma_logo.png",
       role: "Data Analyst | Project Coordinator",
-      stage: "Current Working",
-      duration: "April 2025 – Present",
+      stage: "Previous Working",
+      duration: "June 2025 – July 2026",
       location: "Vadodara",
-      badge: "April 2025 – Present",
+      badge: "June 2025 – July 2026",
       summary:
         "Support analytics reporting, AI adoption, workforce insights, and cross-functional project coordination across global operations.",
       focus:
@@ -79,7 +109,7 @@ export function ExperienceSection(): ReactNode {
       company: "InspireLeap",
       logo: "/inspireleap_logo.jpeg",
       role: "Business Development Consultant Intern",
-      stage: "Previous Working",
+      stage: "Before Previous Working",
       duration: "September 2024 – March 2025",
       location: "Hyderabad",
       badge: "Sept 2024 – Mar 2025",
@@ -104,66 +134,6 @@ export function ExperienceSection(): ReactNode {
       ],
       impactMetric: "B2B & B2C",
       impactLabel: "Growth and customer process optimization",
-    },
-    {
-      id: "bindu-ies",
-      company: "Bindu IES",
-      logo: "/bindu ies.jpeg",
-      role: "Data Integration Analyst",
-      stage: "Before Previous",
-      duration: "June 2024 – July 2024",
-      location: "Karnataka",
-      badge: "June 2024 – July 2024",
-      summary:
-        "Managed client and vendor inquiries and prepared visual reports on project timelines, resource utilization, and budget tracking.",
-      focus:
-        "Project planning support, resource utilization tracking, budget visualization, and client/vendor inquiry management.",
-      responsibilities: [
-        "Managed client and vendor inquiries and prepared visual reports on project timelines, resource utilization, and budget tracking to support project planning.",
-      ],
-      achievements: [
-        "Synthesized multi-source project data into clear visual reports for budget and resource tracking.",
-        "Improved response clarity and project scheduling transparency for external vendors and internal leads.",
-      ],
-      skills: [
-        "Data Integration",
-        "Resource Utilization",
-        "Budget Tracking",
-        "Timeline Visualization",
-        "Vendor Coordination",
-      ],
-      impactMetric: "100%",
-      impactLabel: "Timely reporting on budgets and resource utilization",
-    },
-    {
-      id: "prodigy-infotech",
-      company: "Prodigy InfoTech",
-      logo: "/prodigy_infotech_logo.jpeg",
-      role: "Data Science Intern",
-      stage: "Previous Working",
-      duration: "May 2024 – June 2024",
-      location: "Gujarat",
-      badge: "May 2024 – June 2024",
-      summary:
-        "Analyzed and pre-processed data to derive actionable insights and created data-driven dashboards to visualize key metrics and trends.",
-      focus:
-        "Data preprocessing, exploratory data analysis, metric tracking, and building interactive visual dashboards.",
-      responsibilities: [
-        "Analyzed and pre-processed data to derive actionable insights and created data-driven dashboards to visualize key metrics and trends.",
-      ],
-      achievements: [
-        "Designed structured preprocessing pipelines to clean and normalize raw datasets.",
-        "Constructed dynamic dashboards tracking critical metric variations and trends.",
-      ],
-      skills: [
-        "Data Preprocessing",
-        "Data Science",
-        "Dashboard Design",
-        "Trend Analysis",
-        "Data Cleaning",
-      ],
-      impactMetric: "Actionable",
-      impactLabel: "Insights derived through data-driven dashboards",
     },
   ];
 
